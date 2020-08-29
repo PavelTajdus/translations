@@ -86,10 +86,10 @@ return [
    'valid_cc_num'          => '{field} sa nezdá být platné číslo kreditní/debetní karty.',
 
     // Files
-   'uploaded'              => '{field} je neplatný nahraný soubor.',
-   'max_size'              => '{field} je příliš velký soubor.',
-   'is_image'              => '{field} je neplatný nahraný obrázek.',
+   'uploaded'              => '{field} není platný soubor.',
+   'max_size'              => '{field} je větší než je povoleno.',
+   'is_image'              => '{field} není obrázek.',
    'mime_in'               => '{field} nemá platný mime typ.',
-   'ext_in'                => '{field} je neplatný typ souboru.',
+   'ext_in'                => '{field} není platný typ souboru.',
    'max_dims'              => '{field} není obrázek, nebo je příliš široký nebo vysoký.',
 ];
